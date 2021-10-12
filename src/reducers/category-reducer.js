@@ -53,7 +53,7 @@ export default (state = initState, action) => {
     case CategoryConstants.GET_CAT_SUCCESS:
       state = {
         ...state,
-        categories: action.payload.categories
+        categories: action.payload.category
       }
       break;
     case CategoryConstants.ADD_NEW_CAT_REQUEST:
